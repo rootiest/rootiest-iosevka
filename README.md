@@ -23,6 +23,11 @@ The Nerd Font patches were built using
 
 Install all the fonts using the instructions for your operating system.
 
+> [!CAUTION]
+> This repository is fairly large (a few GB)
+> and may take a while to clone and consume a lot of disk space.
+> See [Minimal Installation](#minimal-installation) for a smaller set.
+
 ### Linux
 
 ```bash
