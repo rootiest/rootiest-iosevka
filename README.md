@@ -9,9 +9,20 @@ The italic forms uses more curves and less "flags" or "tails" than the regular.
 
 The oblique forms also introduce some alternate characters.
 
-![Rootiest Iosevka V2 Font - Regular](./iosevka-v2-regular.png)
+## Preview
+
+**Regular:**
+![Rootiest Iosevka V2 Font - Regular](./preview/iosevka-v2-regular.png)
+
+**Italic:**
+![Rootiest Iosevka V2 Font - Italic](./preview/iosevka-v2-italic.png)
+
+**Oblique:**
+![Rootiest Iosevka V2 Font - Oblique](./preview/iosevka-v2-oblique.png)
 
 ## Version
+
+This is Version 2.0.0 of the Rootiest Iosevka Font.
 
 This font was built using
 [Iosevka](https://github.com/be5invis/Iosevka) version 31.7.1
@@ -26,39 +37,105 @@ Install all the fonts using the instructions for your operating system.
 > [!CAUTION]
 > This repository is fairly large (a few GB)
 > and may take a while to clone and consume a lot of disk space.
-> See [Minimal Installation](#minimal-installation) for a smaller set.
+> See [Minimal Installation](#manual-minimal-installation) for a smaller set.
 
 ### Linux
 
-```bash
-cd ~/.local/share/fonts
-git clone https://github.com/rootiest/rootiest-iosevka.git
-fc-cache -fv
-```
+- Full Install:
+
+  > [!NOTE]
+  > There is also an install script for Linux, but cloning the repository
+  > to the fonts directory is preferred.  
+  > To install using the script, follow the **Minimal Install** directions
+  > below without using the `--minimal` flag.
+
+  ```bash
+  # Make the directory if it doesn't exist
+  mkdir -p ~/.local/share/fonts
+  # Enter the fonts directory
+  cd ~/.local/share/fonts
+  # Clone the repository
+  git clone https://github.com/rootiest/rootiest-iosevka.git
+  # Update the font cache
+  fc-cache -fv
+  ```
+
+- Minimal Install:
+
+  ```bash
+  # Clone the repository
+  git clone https://github.com/rootiest/rootiest-iosevka.git
+  # Run the install script
+  ./rootiest-iosevka/install/linux.sh --minimal
+  ```
+
+### MacOS
+
+- Full Install:
+
+  ```bash
+  # Clone the repository
+  git clone https://github.com/rootiest/rootiest-iosevka.git
+  # Install the fonts
+  ./rootiest-iosevka/install/mac.sh
+  ```
+
+- Minimal Install:
+
+  ```bash
+  # Clone the repository
+  git clone https://github.com/rootiest/rootiest-iosevka.git
+  # Run the install script
+  ./rootiest-iosevka/install/mac.sh --minimal
+  ```
 
 ### Windows
 
 ```powershell
-
-$home = $env:USERPROFILE
-cd $home
-git clone https://github.com/rootiest/rootiest-iosevka.git
-cd $home\rootiest-iosevka
-cp -r * $env:LOCALAPPDATA\Microsoft\Windows\Fonts
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-### MacOS
+1. Open **PowerShell** as Administrator:
 
-```bash
-cd ~
-git clone https://github.com/rootiest/rootiest-iosevka.git
-cd ~/rootiest-iosevka
-cp -r * ~/Library/Fonts
-```
+   - Search for "PowerShell" in the Start Menu.
+   - Right-click and select **Run as Administrator**.
 
-## Minimal Installation
+2. Clone this repository:
 
-Install only the font types you need.
+   > [!TIP]
+   > You can clone the repository in any directory you want.
+
+   ```powershell
+   git clone https://github.com/rootiest/rootiest-iosevka.git
+   ```
+
+3. Approve script execution:
+
+   > [!NOTE]
+   > You may need to approve script execution by running this command
+   > beforehand
+
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+
+4. Run the installation script:
+
+- Full Install:
+
+  ```powershell
+  .\rootiest-iosevka\install\windows.ps1
+  ```
+
+- Minimal Install:
+
+  ```powershell
+  .\rootiest-iosevka\install\windows.ps1 -Minimal
+  ```
+
+## Manual Minimal Installation
+
+Download and install only the font types you need.
 
 Recommended base set:
 
@@ -68,19 +145,33 @@ Recommended base set:
 - [Rootiest Iosevka V2 Font - Oblique Italic](./TTF/IosevkaRootiestV2-ObliqueItalic.ttf)
 - [Rootiest Iosevka V2 Font - Nerd Font Patch](./NerdFont/IosevkaRootiestV2NerdFont-Regular.ttf)
 
+## Roadmap
+
+Some proposed new changes:
+
+- Increased uniqueness in italic form to improve its visibility alongside
+  the regular and oblique forms.
+- Refine the design rules for each form to standardize the curves and tails.
+- More NerdFont patched forms and styles.
+- Build against the latest Iosevka version.
+- Build against the latest Nerd Font version.
+
+This is a work in progress and the roadmap is subject to change.
+
 ## Thanks
 
 This font wouldn't be possible without the following projects:
 
 - [Iosevka](https://github.com/be5invis/Iosevka) -
   This is the base font whose character variants are used in this font.  
-  They did all the work here, I just built it with my preferences.
+  They did all the work here, I just built the font with my preferences.
 
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) -
-  The Nerd Font variant is built using this patch.
+  The Nerd Font variant is built using this patch.  
+  Provides a large set of glyphs and icons the font can render.
 
 ## License
 
-This font is licensed under the [MIT License](../LICENSE).
+This font is licensed under the [MIT License](./LICENSE).
 
 ---
