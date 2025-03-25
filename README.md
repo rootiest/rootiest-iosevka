@@ -3,7 +3,7 @@
 An Iosevka variant for only the rootiest of programmers.
 (and anyone else who likes fancy fonts)
 
-This font prefers fancier and curvier character varients and maximum use of ligatures.
+This font prefers fancier and curvier character variants and maximum use of ligatures.
 
 The italic forms uses more curves and less "flags" or "tails" than the regular.
 
@@ -22,13 +22,21 @@ The oblique forms also introduce some alternate characters.
 
 ## Version
 
-This is Version 2.0.0 of the Rootiest Iosevka Font.
+This is Version 2.5.0 of the Rootiest Iosevka Font.
 
 This font was built using
-[Iosevka](https://github.com/be5invis/Iosevka) version 31.7.1
+[Iosevka](https://github.com/be5invis/Iosevka) version 33.1
 
 The Nerd Font patches were built using
-[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) version 3.2.1
+[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) version 3.3.1
+
+## Changes
+
+New in v2.5.0:
+
+- Updated Iosevka to version 3.3.1.
+- Updated Nerd Fonts to version 3.3.1.
+- NerdFont-patches now include all base styles.
 
 ## Installation
 
@@ -163,11 +171,11 @@ This is a work in progress and the roadmap is subject to change.
 This font wouldn't be possible without the following projects:
 
 - [Iosevka](https://github.com/be5invis/Iosevka) -
-  This is the base font whose character variants are used in this font.  
+  This is the base font whose character styles are used in this font.  
   They did all the work here, I just built the font with my preferences.
 
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) -
-  The Nerd Font variant is built using this patch.  
+  The Nerd Font variants are built using this patch.  
   Provides a large set of glyphs and icons the font can render.
 
 ## License
