@@ -25,7 +25,7 @@ The oblique forms also introduce some alternate characters.
 This is Version 2.5.0 of the Rootiest Iosevka Font.
 
 This font was built using
-[Iosevka](https://github.com/be5invis/Iosevka) version 33.1
+[Iosevka](https://github.com/be5invis/Iosevka) version 33.1.0
 
 The Nerd Font patches were built using
 [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) version 3.3.1
@@ -34,7 +34,7 @@ The Nerd Font patches were built using
 
 New in v2.5.0:
 
-- Updated Iosevka to version 3.3.1.
+- Updated Iosevka to version 33.1.0
 - Updated Nerd Fonts to version 3.3.1.
 - NerdFont-patches now include all base styles.
 
