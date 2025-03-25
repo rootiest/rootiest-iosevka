@@ -43,19 +43,13 @@ New in v2.5.0:
 Install all the fonts using the instructions for your operating system.
 
 > [!CAUTION]
-> This repository is fairly large (a few GB)
+> This repository is quite large (several GB)
 > and may take a while to clone and consume a lot of disk space.
 > See [Minimal Installation](#manual-minimal-installation) for a smaller set.
 
 ### Linux
 
 - Full Install:
-
-  > [!NOTE]
-  > There is also an install script for Linux, but cloning the repository
-  > to the fonts directory is preferred.  
-  > To install using the script, follow the **Minimal Install** directions
-  > below without using the `--minimal` flag.
 
   ```bash
   # Make the directory if it doesn't exist
