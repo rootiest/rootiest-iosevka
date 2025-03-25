@@ -149,16 +149,9 @@ Recommended base set:
 
 ## Roadmap
 
-Some proposed new changes:
+Current proposed new changes:
 
-- Increased uniqueness in italic form to improve its visibility alongside
-  the regular and oblique forms.
-- Refine the design rules for each form to standardize the curves and tails.
-- More NerdFont patched forms and styles.
-- Build against the latest Iosevka version.
-- Build against the latest Nerd Font version.
-
-This is a work in progress and the roadmap is subject to change.
+- Keep up with Iosevka and Nerd Fonts updates.
 
 ## Thanks
 
