@@ -104,22 +104,22 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 2. Clone this repository:
 
-   > [!TIP]
-   > You can clone the repository in any directory you want.
+> [!TIP]
+> You can clone the repository in any directory you want.
 
-   ```powershell
-   git clone https://github.com/rootiest/rootiest-iosevka.git
-   ```
+```powershell
+git clone https://github.com/rootiest/rootiest-iosevka.git
+```
 
 3. Approve script execution:
 
-   > [!NOTE]
-   > You may need to approve script execution by running this command
-   > beforehand
+> [!NOTE]
+> You may need to approve script execution by running this command
+> beforehand
 
-   ```powershell
-   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-   ```
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
 4. Run the installation script:
 
