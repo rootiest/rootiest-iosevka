@@ -145,7 +145,10 @@ Recommended base set:
 - [Rootiest Iosevka V2 Font - Italic](./TTF/IosevkaRootiestV2-Italic.ttf)
 - [Rootiest Iosevka V2 Font - Oblique](./TTF/IosevkaRootiestV2-Oblique.ttf)
 - [Rootiest Iosevka V2 Font - Oblique Italic](./TTF/IosevkaRootiestV2-ObliqueItalic.ttf)
-- [Rootiest Iosevka V2 Font - Nerd Font Patch](./NerdFont/IosevkaRootiestV2NerdFont-Regular.ttf)
+- [Rootiest Iosevka V2 NerdFont - Regular](./NerdFont/IosevkaRootiestV2NerdFont-Regular.ttf)
+- [Rootiest Iosevka V2 NerdFont - Italic](./NerdFont/IosevkaRootiestV2NerdFont-Italic.ttf)
+- [Rootiest Iosevka V2 NerdFont - Oblique](./NerdFont/IosevkaRootiestV2NerdFont-Oblique.ttf)
+- [Rootiest Iosevka V2 NerdFont - Oblique Italic](./NerdFont/IosevkaRootiestV2NerdFont-ObliqueItalic.ttf)
 
 ## Roadmap
 
